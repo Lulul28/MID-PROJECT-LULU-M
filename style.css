@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #e8daff;
+}
+
+body {
+  background: #2a0e61;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background: #2a0e61;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu a {
+  padding-left: 1.7rem;
+  color: #e8daff;
+}
+
+.menu a:hover {
+  color: #c77dff;
+}
+
+.active {
+  color: #c77dff;
+}
+
+.active:hover {
+  color: #9d4edd;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  padding: 2.3rem 0 1.3rem 0;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu:hover {
+  color: #e0aaff;
+}
+
+.logo {
+  font-weight: 600;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding: 5%;
+}
+
+.sub {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.head {
+  font-weight: bold;
+  font-size: 80px;
+}
+
+.social {
+  font-weight: 500;
+  font-size: larger;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 13%;
+}
+
+.social p {
+  padding-left: 6%;
+}
+
+.image {
+  margin: 50px;
+}
+
+.profile-img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  padding: 3em 10em;
+  justify-content: space-between;
+}
+
+.right {
+  padding-left: 15%;
+  text-align: justify;
+}
+
+.left {
+  font-size: x-large;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  text-align: center;
+  color: #e8daff;
+}
+
+th,
+td {
+  padding: 14px;
+  border: 1px solid #e8daff;
+}
+
+th {
+  font-weight: 600;
+  background-color: #4c1d95;
+}
+
+.skill {
+  text-align: center;
+  padding: 2%;
+}
+
+.space-evenly {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-inline: 13%;
+}
+
+.tools {
+  margin-inline: 5px;
+}
+
+.heading {
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.porto {
+  box-sizing: border-box;
+  border: 1px solid #e8daff;
+  padding: 13px;
+  border-radius: 20px;
+  margin: 10px;
+  align-items: center;
+}
+
+.porto-img {
+  border-radius: 10px;
+  height: 15em;
+  width: fit-content;
+}
+
+.porto-text {
+  padding: 7px;
+}
+
+.container-2 {
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.container-3 {
+  width: 50%;
+  margin: 45px auto;
+  padding: 20px;
+  background: #3c096c;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #e8daff;
+  border-radius: 5px;
+  background: #2a0e61;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #c77dff;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #c77dff;
+  cursor: pointer;
+  font-size: 16px;
+  color: #2a0e61;
+}
+
+button:hover {
+  background-color: #e0aaff;
+}
